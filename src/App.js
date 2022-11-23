@@ -1,8 +1,11 @@
+import {Router} from "./routes/Router";
+ 
 function App() {
   return (
-    <>
-      Exercicio de Router
-    </>
+    <main>
+      <h1>Exercicio de Router</h1>
+      <Router />
+    </main>
   );
 }
 
